@@ -26,7 +26,7 @@ createOffice({
   location: "Espoo",
   starting_year: 2017,
 });
-*/
+
 createOffice({
   name: "Academy Sweden",
   location: "Kista",
@@ -38,3 +38,4 @@ createOffice({
   location: "Munchen",
   starting_year: 2018,
 });
+*/

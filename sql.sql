@@ -11,3 +11,9 @@ name varchar(255)
 location varchar(255)
 starting_year int
 )
+
+ALTER TABLE tableware add office_key varchar(255);
+
+alter table tableware 
+add constraint FK_office_id
+foreign key (office_id) references office(id);
